@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Website a Personal Portfolio Category Bootstrap Responsive Website Template | skills :: abdul_basith66</title>
+        <!-- web fonts -->
+        <link href="//fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- //web fonts -->
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="assets/css/style-starter.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <section class="w3l-bootstrap-header">
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-3 py-2">
+          <div class="container">
+            <a class="navbar-brand" href="index.html"> My Website</a>
+            <!-- if logo is image enable this   
+          <a class="navbar-brand" href="#index.html">
+              <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+          </a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon fa fa-bars"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>  
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skills.html">skills</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section class="w3l-skills-breadcrum">
+        <div class="breadcrum-bg">
+          <div class="container py-5">
+            <p  style="color: white;"><a  style="color: white;" href="index.html">Home</a> &nbsp; / &nbsp;  Skills</p>
+           </div>
+        </div>
+      </section> 
+      <!-- end of header section  -->
+     <!-- skills  -->
+    <section class="bg-light p-5">
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center mb-3">
+                <h1 class="mb-3 display-2">SKILLS</h1>
+                <p class="lead text-primary mb-3">"Proficient in web development technologies (HTML, CSS, JS), problem-solving, and delivering user-focused solutions with attention to detail."</p>
+            </div>
+        </div> 
+        <!-- end of titile  -->
+
+        <div class="row text-center">
+            <div class="col-lg-4">
+               
+                <span style="font-size: 50px;" class="material-symbols-outlined mb-3">
+                    desktop_windows
+                    </span>  
+                <h1>Development</h1>
+                <p class="my-4">"Skilled in full-stack web development, proficient in multiple programming languages, and experienced in building responsive and dynamic web applications."</p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+            </div>
+            <div class="col-lg-4"> 
+                <span style="font-size: 50px;" class="material-symbols-outlined  mb-3">
+                    draw
+                    </span>
+                <h1>Design</h1>
+                <p class="my-4">"Creative and versatile design skills, adept at crafting visually appealing and user-centric website layouts with a keen eye for aesthetics."</p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a></div>
+            <div class="col-lg-4"> 
+                <span style="font-size: 50px;" class="material-symbols-outlined mb-3">
+                    emoji_objects
+                    </span>  
+                <h1>Creativity</h1>
+                <p class="my-4">"Innovative thinker, strong ability to ideate and develop unique solutions, fostering creativity and fresh perspectives in projects."</p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a></div>
+        </div>
+     </div>
+    </section>
+   <!-- end of skills  -->
+     <!-- footer section -->
+     <section class="w3l-footer-29-main" id="footer">
+        <div class="footer-29 text-center">
+            <div class="container">
+              
+              <div class="main-social-footer-29">
+                          
+                <a href="https://www.facebook.com/profile.php?id=100007956582911" class="facebook"><span class="fa fa-facebook"></span></a>
+                <a href="https://twitter.com/abdul_basith66" class="twitter"><span class="fa fa-twitter"></span></a>
+                <a href="https://www.instagram.com/abdul_basith66/" class="instagram"><span class="fa fa-instagram"></span></a>
+                <a href="https://www.linkedin.com/in/abdulbasith66/" class="linkedin"><span class="fa fa-linkedin"></span></a>
+            </div>
+                <div class="bottom-copies text-center">
+                    <p class="copy-footer-29">© 2023 My Website. All rights reserved | Designed by abdul_basith66</a></p>
+                     
+                </div>
+            </div>
+        </div>
+         <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+                    <span class="fa fa-angle-up"></span>
+                       </button>
+                       <script>
+                           // When the user scrolls down 20px from the top of the document, show the button
+                           window.onscroll = function () {
+                               scrollFunction()
+                           };
+                    
+                           function scrollFunction() {
+                               if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                   document.getElementById("movetop").style.display = "block";
+                               } else {
+                                   document.getElementById("movetop").style.display = "none";
+                               }
+                           }
+                    
+                           // When the user clicks on the button, scroll to the top of the document
+                           function topFunction() {
+                               document.body.scrollTop = 0;
+                               document.documentElement.scrollTop = 0;
+                           }
+                       </script>
+                       <!-- /move top -->
+      </section>
+     <script src="assets/js/jquery-3.3.1.min.js"></script>
+      <!-- //footer-28 block -->
+      </section>
+      
+      <script>
+          $(function () {
+            $('.navbar-toggler').click(function () {
+              $('body').toggleClass('noscroll');
+            })
+          });
+        </script>
+
+
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+</body>
+</html>
